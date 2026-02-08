@@ -11,6 +11,6 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    baseURL: '/nuxt-todo-app',
+    baseURL: '/nuxt-todo',
   },
 })
