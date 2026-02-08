@@ -4,4 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss'],
   ssr: false,
+  runtimeConfig: {
+    public: {
+      dbName: process.env.DB_NAME || 'nuxt_todo_db',
+    }
+  },
+  app: {
+    baseURL: '/nuxt-todo-app',
+  },
 })
