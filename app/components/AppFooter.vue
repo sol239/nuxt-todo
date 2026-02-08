@@ -30,8 +30,8 @@ import { Home, List, Settings } from 'lucide-vue-next'
 
 <style scoped>
 #app-footer {
-    background-color: #333;
-    color: white;
+    background-color: var(--space-indigo);
+    color: var(--white-smoke);
     padding: 1rem;
     height: 4.5rem;
 }
